@@ -130,3 +130,51 @@ nav button {
     background-color: red;
     color: white;
 }
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    overflow-x: scroll;
+    cursor: pointer;
+}
+
+.first::-webkit-scrollbar {
+    display: none;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+
+.faqbox:hover {
+    background-color: rgb(141, 141, 141);
+    color: white;
+
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    display: flex;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 10px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 24px;
+
+}
