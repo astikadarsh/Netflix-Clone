@@ -36,12 +36,12 @@ nav {
     max-width: 60vw;
     margin: auto;
     justify-content: space-between;
-    height: 62px;
+    height: 100px;
 }
 
 nav img {
     color: red;
-    width: 114px;
+    width: 130px;
     position: relative;
     z-index: 10;
 
@@ -53,7 +53,7 @@ nav button {
 }
 
 .hero {
-    height: calc(100% - 62px);
+    height: calc(100% - 100px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,6 +88,8 @@ nav button {
 .separation {
     height: 4px;
     background-color: rgb(55, 54, 54);
+    position: relative;
+    z-index: 20;
 }
 
 .btn {
@@ -177,4 +179,31 @@ nav button {
     cursor: pointer;
     font-size: 24px;
 
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+
+
+footer .questions{
+    padding: 34px 0;
+}
+.footer a{
+    font-size: 14px;
+    color: white;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
 }
