@@ -189,13 +189,15 @@ footer {
 }
 
 
-footer .questions{
+footer .questions {
     padding: 34px 0;
 }
-.footer a{
+
+.footer a {
     font-size: 14px;
     color: white;
 }
+
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -206,4 +208,59 @@ footer .questions{
     display: flex;
     flex-direction: column;
     gap: 23px;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.moreReasonsToJoin h2 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.card {
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(to bottom, #14162b, #1b0f1a);
+
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card p {
+    color: white;
+}
+
+.last-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.last-button input {
+    padding: 7px 101px 8px 14px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    color: white;
+}
+
+.lastbuttondiv {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
